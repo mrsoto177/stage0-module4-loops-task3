@@ -17,6 +17,6 @@ public class NinesSum {
     
     public static void main(String[] args) {
     	NinesSum sum = new NinesSum();
-    	sum.calculateSum(5);
+    	sum.calculateSum(0);
     }
 }

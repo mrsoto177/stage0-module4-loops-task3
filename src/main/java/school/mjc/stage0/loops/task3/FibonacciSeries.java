@@ -12,7 +12,7 @@ public class FibonacciSeries {
 		 int fib1 = 0;
 	        int fib2 = 1;
 	        int fib = 0;
-    	for(int i=2; i<= lastFibonacci; i++) {
+    	for(int i=3; i<= lastFibonacci; i++) {
     	
     		 fib = fib1 + fib2;
              fib1 = fib2;
@@ -23,7 +23,7 @@ public class FibonacciSeries {
     
     public static void main(String[] args) {
     	FibonacciSeries fibo = new FibonacciSeries();
-    	fibo.printFibonacci(7);
+    	fibo.printFibonacci(3);
     }
 }
 

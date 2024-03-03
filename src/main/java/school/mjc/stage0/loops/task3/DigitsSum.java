@@ -4,8 +4,8 @@ public class DigitsSum {
     public void printDigitsSum(int t){
 
     	int sum = 0;
-	
     	String number = Integer.toString(t);
+    
     	int cantidad = number.length();//obtenemos el numero de la cadena
     	
     	
@@ -14,12 +14,15 @@ public class DigitsSum {
     		t = t / 10;
     	 
     	}
+  
+    	sum = sum >= 0 ? sum : -sum;
     	System.out.println(sum); 
+    	//System.out.println(sum*-1); 
     }
     
     public static void main(String[] args) {
     	DigitsSum sum = new DigitsSum();
-    	sum.printDigitsSum(123);
+    	sum.printDigitsSum(-2323);
     }
 }
 
